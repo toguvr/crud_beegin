@@ -37,6 +37,8 @@ const Form = ({ backPage, createCampaign }) => {
         value={formData.recipients}
         onChange={handleForm}
         name="recipients"
+        min={0}
+        type="number"
       />
       <ButtonDefault onClick={createCurrentCampaign} colorBtn="#28a745">Adicionar</ButtonDefault>
     </FormContainer>

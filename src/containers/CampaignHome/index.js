@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
-import { push } from "connected-react-router";
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { CampaignMainContainer, CampaignTitle, TitleContainer, BodyContainer, DeatailsTitle, ButtonDefault, CampaignBodyContainer, DivFlex } from "../../style/styled";
 import { createCampaign, getCampaign } from "../../actions";
@@ -8,7 +7,7 @@ import CampaignBar from '../../Components/CampaignBar'
 import Form from "../../Components/Form";
 import FormEdit from "../../Components/FormEdit";
 
-const CampaignHome = ({ createCampaign, getCampaign, currentCampaigns }) => {
+const CampaignHome = ({ getCampaign, currentCampaigns }) => {
 
   const [openCreate, setOpenCreate] = useState(false)
   const [openEdit, setOpenEdit] = useState(false)

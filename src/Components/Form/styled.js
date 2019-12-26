@@ -43,7 +43,7 @@ export const InputForm = styled.input`
   }
 `
 
-export const AreaFormRecipients = styled.textarea`
+export const AreaFormRecipients = styled.input`
   background: #979ea8;
   width:80%;
   border-radius:8px;
