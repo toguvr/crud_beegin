@@ -37,7 +37,7 @@ export const DivFlex = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 25%;
+  width: 20%;
 `
 
 export const CampaignTitle = styled.h2`
