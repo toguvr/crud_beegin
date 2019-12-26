@@ -20,7 +20,7 @@ export const CampaignBodyContainer = styled.div`
   overflow-y: scroll;
 
   ::-webkit-scrollbar{
-    display:none;
+    display: none;
   }
 `
 
@@ -37,7 +37,7 @@ export const DivFlex = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width:25%;
+  width: 20%;
 `
 
 export const CampaignTitle = styled.h2`
@@ -53,12 +53,12 @@ export const DeatailsTitle = styled.span`
 `
 
 export const ButtonDefault = styled.button`
-  background: ${props=>props.colorBtn};
+  background: ${props => props.colorBtn};
   color: white;
   padding: 7px 15px;
   border: none;
   border-radius: 4px;
-  font-size:14px;
+  font-size: 14px;
   cursor: pointer;
   
   :active{
@@ -76,6 +76,6 @@ export const TitleContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 `
 

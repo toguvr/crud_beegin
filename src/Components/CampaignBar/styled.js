@@ -14,7 +14,7 @@ export const ButtonsDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 25%;
+  width: 20%;
 `
 
 export const DeatailsTitle = styled.span`

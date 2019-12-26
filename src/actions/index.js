@@ -20,7 +20,7 @@ export const createCampaign = (campaignInfo) => async (dispatch) => {
   const body = {
     alerta: campaignInfo.name,
     data: campaignInfo.date,
-    destinatarios: campaignInfo.recipients.split(',').length,
+    destinatarios: campaignInfo.recipients,
     status: 'Pendente',
   }
 

@@ -41,6 +41,8 @@ const FormEdit = ({ backPage, editCampaign, currentCampaign }) => {
         value={formData.recipients}
         onChange={handleForm}
         name="recipients"
+        type="number"
+        min={0}
       />
       <TitleForm>Status</TitleForm>
       <AreaForm

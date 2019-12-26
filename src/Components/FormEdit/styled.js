@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 export const FormContainer = styled.div`
-  position:fixed;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -17,11 +17,11 @@ export const FormContainer = styled.div`
 
 export const AreaForm = styled.textarea`
   background: #979ea8;
-  width:80%;
-  border-radius:8px;
-  border:none;
-  margin-bottom:15px;
-  height:50px;
+  width: 80%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  height: 50px;
   padding: 5px;
 
   :focus{
@@ -31,11 +31,11 @@ export const AreaForm = styled.textarea`
 
 export const InputForm = styled.input`
   background: #979ea8;
-  width:80%;
-  border-radius:8px;
-  border:none;
-  margin-bottom:15px;
-  height:50px;
+  width: 80%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  height: 50px;
   padding: 5px;
 
   :focus{
@@ -43,13 +43,13 @@ export const InputForm = styled.input`
   }
 `
 
-export const AreaFormRecipients = styled.textarea`
+export const AreaFormRecipients = styled.input`
   background: #979ea8;
-  width:80%;
-  border-radius:8px;
-  border:none;
-  margin-bottom:15px;
-  height:100px;
+  width: 80%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  height: 100px;
   padding: 5px;
 
   :focus{
@@ -59,8 +59,8 @@ export const AreaFormRecipients = styled.textarea`
 
 export const TitleForm = styled.span`
   color: #979ea8;
-  width:80%;
-  margin-bottom:10px;
+  width: 80%;
+  margin-bottom: 10px;
 `
 
 export const ArrowBackIconStyled = styled(ArrowBackIcon)`
