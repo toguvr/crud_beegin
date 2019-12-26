@@ -14,6 +14,7 @@ const Form = ({ backPage, createCampaign }) => {
 
   const createCurrentCampaign = () => {
     createCampaign(formData)
+    backPage(false)
   }
 
   return (

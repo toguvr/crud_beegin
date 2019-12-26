@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { FormContainer, ArrowBackIconStyled, TitleForm, AreaFormRecipients, AreaForm, InputForm } from "./styled";
 import { editCampaign } from "../../actions";
 import { ButtonDefault } from "../../style/styled";
+import moment from 'moment'
 
 const FormEdit = ({ backPage, editCampaign, currentCampaign }) => {
 
@@ -18,6 +19,7 @@ const FormEdit = ({ backPage, editCampaign, currentCampaign }) => {
 
   const editCurrentCampaign = () => {
     editCampaign(formData, currentCampaign.id)
+    backPage(false)
   }
 
   return (
@@ -31,7 +33,7 @@ const FormEdit = ({ backPage, editCampaign, currentCampaign }) => {
       />
       <TitleForm>Data</TitleForm>
       <InputForm
-        value={formData.date}
+        value={moment(formData.date).format('YYYY-MM-DD')}
         onChange={handleForm}
         name="date"
         type="date"

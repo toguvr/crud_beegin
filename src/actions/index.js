@@ -34,7 +34,7 @@ export const editCampaign = (campaignInfo, id) => async (dispatch) => {
   const body = {
     alerta: campaignInfo.name,
     data: campaignInfo.date,
-    destinatarios: campaignInfo.recipients.split(',').length,
+    destinatarios: campaignInfo.recipients,
     status: campaignInfo.status,
   }
 
